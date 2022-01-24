@@ -92,3 +92,29 @@
 // //   return sum % 10 === 0;
 // // }
 // // isCreditCardNumber(371449635398431)
+
+
+/**
+ * Returns the number of positive numbers from specified array
+ *
+ * @param {array} arr
+ * @return {number}
+ *
+ * @example
+ *   [ ]          => 0
+ *   [ -1, 0, 1 ] => 1
+ *   [ 1, 2, 3]   => 3
+ *   [ null, 1, 'elephant' ] => 1
+ *   [ 1, '2' ] => 1
+ */
+//  function getPositivesCount(arr) {
+//   let result = [];
+//   arr.map((item) => {
+//     if (typeof item === "number" && item > 0) {
+//       result.push(item)
+//     }
+//   })
+//   console.log(result.length)
+//   return result.length
+// }
+// getPositivesCount([ 1, '2' ])
